@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+}
+
+h1 {
+    margin: auto;
+    letter-spacing: 3px;
+}
+
+p {
+    margin: auto;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+#container {
+    margin: auto;
+    margin-top: 20px;
+    height:80vh;
+    width:90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#container > img {
+
+    height:calc(80vh/10);
+    width:calc(90vw / 10 );
+    border: 1px solid black;
+   
+}
+
+div#sonhali {
+    border: 2px solid white;
+    height: 500px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    display: none;
+}
+
+div#sonhali > img.sonhali {
+    height: 100%;
+    width: 100%;
+}
+
+img.kapat {
+    position:fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+  
+ 
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    padding:5px;
+    background-color: green;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+p.vedat {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
